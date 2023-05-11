@@ -1,0 +1,41 @@
+.card .showName{
+    display: flex;
+}
+.card .showName p{
+    margin: 5px;
+}
+.card {
+    margin : 30px 30px;
+    border: 1px solid black;
+    border-radius:10px;
+    width:250px;
+    background-color: azure;
+    
+}
+.container{
+ display: inline-flex;
+}
+.card .button button{
+    margin : 10px;
+    border-radius: 10px;
+    cursor : pointer;
+    background-color: white;
+}
+.body{
+    height : 1500px;
+    width : 100vw;
+    background-color: aqua;
+    margin-top: -20px;
+    margin-left:-10px;
+}
+.summary{
+    text-align: center;
+    border : 1px solid black;
+    height: 220px;
+    width:500px;
+    position: relative;
+    top:200px;
+    left:500px;
+    border-radius: 10px;
+    background-color: azure;
+}
